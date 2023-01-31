@@ -1,0 +1,53 @@
+<!-- Christy Karam st018249 Assignment2 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/map.css">
+</head>
+<body>
+
+  <h1 style="margin-left:35px ;">Timelines</h1>
+  <div class="menu">
+    <a href="#" class="navig" id="imgsss">ImageMap View</a>
+    <a href="#" class="navig" onclick="makeTable()" id="tablesss">Table View</a>
+  </div>
+
+<div id="myPopup">
+<img src="timeline-pic.png" alt="Timeline" usemap="#timeline"  >
+
+<map name="timeline">
+  <area shape="circle" coords="94,340,25" href="" class="goodCircle" alt="1991-HTML">
+  <area shape="circle" coords="255,339,15" href="" class="goodCircle" alt="1994-HTML2">
+  <area shape="circle" coords="396,339,15" href="" class="goodCircle" alt="1996-CSS1 + Javascript">
+  <area shape="circle" coords="484,291,15" href="" class="goodCircle" alt="1997-HTML4">
+  <area shape="circle" coords="572,239,15" href="" class="goodCircle" alt="1998-CSS2">
+  <area shape="circle" coords="660,189,15" href="" class="goodCircle" alt="2000-XHTML1">
+  <area shape="circle" coords="745,138,15" href="" class="goodCircle" alt="2002-Tableless Web Design">
+  <area shape="circle" coords="834,86,15" href="" class="goodCircle" alt="2005-AJAX">
+  <area shape="circle" coords="894,86,15" href="" class="goodCircle" alt="2009-HTML5">
+
+</map>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="mymodal">
+
+  <!-- Modal content -->
+  <div id="myModalContent" class="mymodal-content">
+    <span class="close">x</span>
+    <p id="theText"></p>
+  </div>
+
+</div>
+
+<!-- The HTML content needs to load first -->
+<script type="text/javascript" src="js/map.js"></script>
+<div id="tablemade">
+  <br>
+  <br>
+  <table id="tbl"></table>
+</div>
+
+</body>
+</html>
